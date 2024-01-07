@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#text{
+    margin: 2rem 0 2rem 0;
+    background: #706a6a;
+    text-align: center;
+    letter-spacing: 0.8rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.gd{
+    margin-left: 31%;
+}
