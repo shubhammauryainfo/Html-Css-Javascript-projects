@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#bgimg {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("img/bg1.jpg");
+    min-height: 92vh;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+.header h4 {
+  color: #cf2e2e;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app-main {
+  min-height: 10vh;
+  width: 30vw;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 37px 0 37px 0;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  9px 9px 18px #8d8c8c,
+               -9px -9px 18px #d6d5d5;
+}
+.app-main > * {
+  margin-bottom: 12px;
+}
+.input-box {
+  width: 100%;
+  background: azure;
+  color: #e4603a;
+  font-weight: 500;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.weather-body {
+  color: #333232;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: #bdd6f0;
+  display: none;
+  background: rgb(228,65,31);
+  background: -moz-linear-gradient(118deg, rgba(228,65,31,0.4682247899159664) 3%, rgba(212,222,179,0.4682247899159664) 10%, rgba(171,194,193,1) 15%, rgba(182,139,130,0.4682247899159664) 23%, rgba(176,130,172,0.4682247899159664) 30%, rgba(189,201,163,1) 37%, rgba(162,104,115,1) 44%, rgba(111,134,180,1) 51%, rgba(72,157,230,0.5046393557422969) 59%, rgba(230,72,144,0.5046393557422969) 69%, rgba(192,135,224,0.5046393557422969) 77%, rgba(212,72,230,0.5046393557422969) 84%, rgba(199,161,199,0.3841911764705882) 92%, rgba(72,157,230,0.5046393557422969) 96%);
+  background: -webkit-linear-gradient(118deg, rgba(228,65,31,0.4682247899159664) 3%, rgba(212,222,179,0.4682247899159664) 10%, rgba(171,194,193,1) 15%, rgba(182,139,130,0.4682247899159664) 23%, rgba(176,130,172,0.4682247899159664) 30%, rgba(189,201,163,1) 37%, rgba(162,104,115,1) 44%, rgba(111,134,180,1) 51%, rgba(72,157,230,0.5046393557422969) 59%, rgba(230,72,144,0.5046393557422969) 69%, rgba(192,135,224,0.5046393557422969) 77%, rgba(212,72,230,0.5046393557422969) 84%, rgba(199,161,199,0.3841911764705882) 92%, rgba(72,157,230,0.5046393557422969) 96%);
+  background: linear-gradient(118deg, rgba(228,65,31,0.4682247899159664) 3%, rgba(212,222,179,0.4682247899159664) 10%, rgba(171,194,193,1) 15%, rgba(182,139,130,0.4682247899159664) 23%, rgba(176,130,172,0.4682247899159664) 30%, rgba(189,201,163,1) 37%, rgba(162,104,115,1) 44%, rgba(111,134,180,1) 51%, rgba(72,157,230,0.5046393557422969) 59%, rgba(230,72,144,0.5046393557422969) 69%, rgba(192,135,224,0.5046393557422969) 77%, rgba(212,72,230,0.5046393557422969) 84%, rgba(199,161,199,0.3841911764705882) 92%, rgba(72,157,230,0.5046393557422969) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4411f",endColorstr="#489de6",GradientType=1);
+}
+.location-deatils {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px 0px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+.weather {
+  margin-top: 25px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.min-max {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day_details {
+  padding: 20px;
+}
+.sun-detail,
+.basic {
+  font-size: 1rem;
+}
+#weather-icon {
+  color: black;
+}
+
+.right{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ 
+}
+
+@media screen and (max-width: 800px) {
+  .app-main {
+    width: 95%;
+    padding: 10px;
+  }
+  body {
+    min-height: 94vh;
+  }
+}
