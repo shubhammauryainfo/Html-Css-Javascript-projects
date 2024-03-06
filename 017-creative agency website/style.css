@@ -188,7 +188,7 @@ section.home {
   padding: 0 0.25rem;
 }
 .row{
-    display: inline;
+    display: inline-block;
 }
 .home-img {
   display: none;
