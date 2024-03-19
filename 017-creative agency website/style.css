@@ -178,7 +178,6 @@ section.home {
   max-width: 600px;
 }
 
-/* Reference: https://stackoverflow.com/questions/43683187/how-can-i-create-custom-underline-or-highlight-for-text-in-html-or-css */
 .highlight {
   background: linear-gradient(
     180deg,
@@ -187,7 +186,7 @@ section.home {
   );
   padding: 0 0.25rem;
 }
-.row{
+.inline{
     display: inline-block;
 }
 .home-img {
